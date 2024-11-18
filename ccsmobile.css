@@ -1,1 +1,174 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c3{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c2{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c3 doc-content"><p class="c0"><span class="c1">/* Estilos generales para el cuerpo */</span></p><p class="c0"><span class="c1">body {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; font-family: Arial, sans-serif;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; margin: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; line-height: 1.6;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-color: #e6f5e6; /* Fondo claro con tono verde */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; color: #004d00; /* Texto principal en verde oscuro */</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Header */</span></p><p class="c0"><span class="c1">header {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; align-items: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; justify-content: space-between;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 10px 20px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background: #004d00; /* Fondo verde oscuro */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; color: #fff;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">header .logo {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; height: 50px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">header ul {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; list-style: none;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; margin: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 0;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">header ul li {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; margin: 0 10px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">header ul li a {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; color: #fff;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; text-decoration: none;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; font-weight: bold;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">header ul li a:hover {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; text-decoration: underline;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Showcase */</span></p><p class="c0"><span class="c1">#showcase {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-image: url(&quot;img/fondo2.png&quot;); /* Fondo con imagen */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-repeat: no-repeat;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-position: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-size: cover;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; height: 300px; /* Se ajusta la altura para m&oacute;viles */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; text-align: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 50px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Secci&oacute;n de Proyectos */</span></p><p class="c0"><span class="c1">#projects, #about, #contact {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 50px 20px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">#projects {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-color: #f2f9f2;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">.project {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; margin: 20px 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-color: #e6f5e6;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 15px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; border: 1px solid #004d00;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; border-radius: 5px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; text-align: center;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">.project img {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; max-width: 100%;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; height: auto;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; display: block;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; margin-bottom: 10px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">.project button {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-color: #009900;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; color: white;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; border: none;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; padding: 10px 15px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; border-radius: 5px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; cursor: pointer;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">.project button:hover {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; background-color: #004d00;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Secci&oacute;n Acerca de m&iacute; */</span></p><p class="c0"><span class="c1">#about p, #about h3 {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; text-align: center;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Secci&oacute;n de Contacto */</span></p><p class="c0"><span class="c1">#contact p {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; font-size: 14px;</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">/* Media Queries para Responsividad */</span></p><p class="c0"><span class="c1">@media (max-width: 768px) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; header {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; flex-direction: column;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; align-items: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; header ul {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; flex-direction: column;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; align-items: center;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; header ul li {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; margin-bottom: 10px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #showcase {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; height: 200px; /* Reduce la altura en pantallas m&aacute;s peque&ntilde;as */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 30px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #projects, #about, #contact {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 30px 20px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .project {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; margin-bottom: 20px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; width: 100%; /* Hace que los proyectos ocupen el 100% del contenedor */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .about-row {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; display: flex;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; flex-wrap: wrap;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; .about-row-experience, .about-row-me {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; width: 100%; /* Los elementos en about se colocan en una sola columna */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding-left: 0;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #contact p {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; font-size: 14px; /* Ajusta el tama&ntilde;o de la fuente en m&oacute;viles */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #projects-button {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; width: 100%; /* Bot&oacute;n ocupa todo el ancho en m&oacute;viles */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 15px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">@media (max-width: 480px) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #showcase {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 20px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; height: 150px; /* Ajusta a&uacute;n m&aacute;s la altura en pantallas m&aacute;s peque&ntilde;as */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; header .logo {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; height: 40px; /* Logo m&aacute;s peque&ntilde;o en pantallas muy peque&ntilde;as */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; #projects button, .project button {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; width: 100%; /* Botones m&aacute;s anchos */</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 15px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; footer {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; padding: 20px;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p><p class="c0"><span class="c1">}</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&lt;</span></p></body></html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e6f5e6; /* Fondo claro con tono verde */
+    color: #004d00; /* Texto principal en verde oscuro */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #004d00; /* Fondo verde oscuro */
+    color: #fff;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+    background-image: url("img/fondo2.png"); /* Fondo con imagen */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px; /* Se ajusta la altura para móviles */
+    text-align: center;
+    padding: 50px;
+}
+
+/* Sección de Proyectos */
+#projects, #about, #contact {
+    padding: 50px 20px;
+}
+
+#projects {
+    background-color: #f2f9f2;
+}
+
+.project {
+    margin: 20px 0;
+    background-color: #e6f5e6;
+    padding: 15px;
+    border: 1px solid #004d00;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.project button {
+    background-color: #009900;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project button:hover {
+    background-color: #004d00;
+}
+
+/* Sección Acerca de mí */
+#about p, #about h3 {
+    text-align: center;
+}
+
+/* Sección de Contacto */
+#contact p {
+    font-size: 14px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li {
+        margin-bottom: 10px;
+    }
+
+    #showcase {
+        height: 200px; /* Reduce la altura en pantallas más pequeñas */
+        padding: 30px;
+    }
+
+    #projects, #about, #contact {
+        padding: 30px 20px;
+    }
+
+    .project {
+        margin-bottom: 20px;
+        width: 100%; /* Hace que los proyectos ocupen el 100% del contenedor */
+    }
+
+    .about-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-row-experience, .about-row-me {
+        width: 100%; /* Los elementos en about se colocan en una sola columna */
+        padding-left: 0;
+    }
+
+    #contact p {
+        font-size: 14px; /* Ajusta el tamaño de la fuente en móviles */
+    }
+
+    #projects-button {
+        width: 100%; /* Botón ocupa todo el ancho en móviles */
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #showcase {
+        padding: 20px;
+        height: 150px; /* Ajusta aún más la altura en pantallas más pequeñas */
+    }
+
+    header .logo {
+        height: 40px; /* Logo más pequeño en pantallas muy pequeñas */
+    }
+
+    #projects button, .project button {
+        width: 100%; /* Botones más anchos */
+        padding: 15px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+<
