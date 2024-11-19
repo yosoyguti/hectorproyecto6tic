@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Proyecto Final</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -63,6 +64,7 @@
             <p>Teléfono: 123-456-7890</p>
             <p>Email: hectorgutierrezinsua@gmail.com</p>
             <button onclick="window.location.href='https://www.instagram.com/hector.gutierreez/'">Mi Instagram</button>
+            <button id="hidden-button" onclick="window.location.href='https://www.tiktok.com/@2021donpollo/video/7204591936492129579?is_from_webapp=1&sender_device=pc&web_id=7438893679298790945'">¡Secreto!</button>
         </section>
     </main>
 
