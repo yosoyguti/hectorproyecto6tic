@@ -36,6 +36,7 @@
                 <li>2025 - Desarrollador Frontend en una empresa innovadora.</li>
                 <li>2028 - Diseñador UX/UI trabajando en proyectos internacionales.</li>
                 <li>2035 - CTO en una startup tecnológica de éxito.</li>
+                <li>2040 - fui al espacio ya que fui astronauta</li>
             </ul>
         </section>
 
